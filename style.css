@@ -1,35 +1,24 @@
-/*=============main===========*/
 body{
    margin: 0; 
    padding: 0; 
    font-family: Arial, Helvetica, sans-serif;  
-
-background-image: url(images/gateway1.jpg);
-    height: 100px;
-    background-size: cover;
-    position: relative;
-    background-position: center;
-    background-repeat:repeat-x;
-    background-attachment: fixed;
-
 }
-
 /*=============header========*/
 #header img{
     display: block;
     margin: auto;
-    height : 10;
-    padding-bottom: 50px;
+    height: 45px;
+    padding: 50px;
 }
 /*=============tabs-top=======*/
 
 #tabs-top{
     position:absolute;
-    top     : 80px;
+    top     : 100px;
     left    : 0;
     z-index : 500;
     width   : 100%;
-    height  : 30px;
+    height  : 50px;
     background-color:rgba(2, 4, 39, 0.952);
 }
 
@@ -37,7 +26,7 @@ background-image: url(images/gateway1.jpg);
     float   : left;
     display : block;
     width   : 33%;
-    height  :35px;
+    height  : 35px;
     font-weight : 700;
     color:rgb(237, 241, 241);
     text-align:center;
@@ -46,21 +35,16 @@ background-image: url(images/gateway1.jpg);
 }
 
 
-#content{
-    padding: top 5px;
-    padding-bottom: 45;
-}
-
 /*=============bottom tabs=======*/
 
 #tabs-bottom{
-    position:fixed;
     bottom  :0px;
     left    : 0;
     z-index : 500;
     width   : 100%;
     height  : 30px;
     background-color:rgba(2, 4, 39, 0.952);
+    position: ;
 }
 #tabs-bottom a{
     float : left;
@@ -71,47 +55,75 @@ background-image: url(images/gateway1.jpg);
     color       : white;
     text-align  : center;
     text-decoration : none;
-    padding-top     : none;
+    padding-top: none;
 }
 
+#main{
+    margin-top: 0px;
+    background: url('images/gateway1.jpg');
+    background-repeat:repeat-y;
+}
+
+#content{
+    padding-top:1px;
+    padding-bottom:0px;
+}
 
 
 /*============info-box=======*/
 
 a.info-box{
-    background: (225, 225, 225, .8);
-    text-decoration: none;
+    text-decoration : none;
+      background      : rgba(196, 191, 174, 0.8);
+      width           : 90%;
+      height          : 90px;
+      display         : block;
+      margin          : auto;
+      margin-top      : 12px;
+      padding         : 1px; 
 }
 .info-box img{
-    height: 100px;;
-    margin: 20px;
-    text-decoration: none;
+    height : 70px;
+    margin : 10px;
+    float  : left;
 }
+
+
 .info-box h2{
+    margin:0;
     padding:0;
-    color:white;
+    width: 90%;
+    color:rgb(10, 2, 29);
     text-decoration: none;
 }
 
 .info-box p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 20;
-    font-size: large;
-    color:white;
-    text-decoration: none;
+    margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : #131313;
 }
+
+.info-box img.right{
+    float      : right;
+    margin-top : 25px;
+    height     :40px; 
+}
+
 #info-box p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 20;
     font-size: large;
-    color:white;
+    color:rgb(10, 2, 34);
     text-decoration: none; 
 }
 
 /*=============infor-box=full===========*/
 
 #info-box-full{
+    background-color: rgba(225, 255, 255, .8);
     width   : 90%;
+    display: block;
     margin  : auto;
     margin-top : 12px;
     padding    : 10px;
@@ -120,14 +132,15 @@ a.info-box{
 #info-box-full h3{
     padding:0;
     text-decoration: none;
-    color:white;
+    color:rgb(11, 3, 39);
+    text-align : center;
 }
 
 #info-box-full p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 20;
     font-size: large;
-    color:white;
+    color:rgb(10, 3, 36);
     text-decoration: none;
 }
 
@@ -136,21 +149,21 @@ input{
     width: 100%;
     height: 25px;
     margin : 12px 0;
-    border : 1px solid #929292;
+    border : 1px solid #11022c;
 }
 
 textarea{
     width: 100%;
     height :25px;
     margin : 12px 0;
-    border : 1px solid #929292;
+    border : 1px solid #06011f;
 }
 
 .button{
     display : block;
     text-decoration : none;
     text-align  : center;
-    color       : white;
+    color       : rgb(5, 3, 12);
     font-size   : 16px;
     font-weight : 600;
     margin : 12px 0;
@@ -158,6 +171,7 @@ textarea{
 }
 
 h1{
-    color:white;
+    color:rgba(2, 4, 39, 0.952);
+    text-align : center;
 }
 
